@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Nunito:wght@200&display=swap');
+
+body {
+    background-color: rgb(255, 253, 152);
+    overflow: hidden;
+}
+
+.pealkiri {
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.5rem;
+    animation: pealkiri 2s;
+    position: relative;
+    animation-fill-mode: forwards;
+}
+
+@keyframes pealkiri {
+    0% {left: -1000px;}
+    90% {left: 50px; color:rgb(255, 212, 69);}
+    100% {left: 0; color: rgb(206, 100, 29);}
+}
+
+.pilt {
+    text-align: center;
+}
+
+.koostisosad {
+    color: brown;
+    font-family: Arial, sans-serif;
+    border: 2px solid rgb(99, 91, 24);
+    width: 15%;
+    margin: 2px auto;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: koostisosad 2s;
+}
+
+@keyframes koostisosad {
+    0% {right: -1000px;}
+    70% {right: 10px; color:rgb(140, 69, 255);}
+    100% {right: 0; color: rgb(206, 100, 29);}
+}
+
+.valmistamine {
+    color: brown;
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    border: 2px solid;
+    border-color: rgb(99, 91, 24);
+    width: 40%;
+    
+}
+
+.link {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: rgb(89, 99, 32);
+    font-size: 1rem;
+    position: relative;
+    animation-fill-mode: forwards;
+    animation: link 2s;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@keyframes link {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    
+}
+
+
+.footer {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: rgb(89, 99, 32);
+    font-size: 1rem;
+}
